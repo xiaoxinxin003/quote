@@ -66,7 +66,7 @@ ROBOTSTXT_OBEY = True
 # Configure item pipelines
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-   'quote.pipelines.QuotePipeline': 300,
+   # 'quote.pipelines.QuotePipeline': 300,
    'quote.pipelines.MongoPipeline': 400,
 }
 
